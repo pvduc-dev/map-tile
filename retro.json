@@ -1,0 +1,21 @@
+{
+  "version": 8,
+  "sources": {
+    "rasterTile": {
+      "type": "raster",
+      "tiles": [
+        "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m3!1e0!2sm!3i609339356!3m12!2svi!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!23i1379903&key=AIzaSyDk4C4EBWgjuL1eBnJlu1J80WytEtSIags&token=35558"
+      ],
+      "tileSize": 256
+    }
+  },
+  "layers": [
+    {
+      "id": "simple-tiles",
+      "type": "raster",
+      "source": "rasterTile",
+      "minzoom": 0,
+      "maxzoom": 24
+    }
+  ]
+}
