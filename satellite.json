@@ -1,0 +1,21 @@
+{
+  "version": 8,
+  "sources": {
+    "rasterTile": {
+      "type": "raster",
+      "tiles": [
+        "https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}"
+      ],
+      "tileSize": 256
+    }
+  },
+  "layers": [
+    {
+      "id": "simple-tiles",
+      "type": "raster",
+      "source": "rasterTile",
+      "minzoom": 0,
+      "maxzoom": 24
+    }
+  ]
+}
